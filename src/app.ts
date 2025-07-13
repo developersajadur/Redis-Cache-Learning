@@ -28,7 +28,7 @@ app.get("/products", async (req: Request, res: Response) => {
 
     res.status(200).json({
       success: true,
-      message: "Get App Product From Database",
+      message: "Get All Product From Database",
       data: products,
     });
     return;
